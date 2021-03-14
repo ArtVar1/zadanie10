@@ -1,0 +1,27 @@
+package com.company;
+
+public class trojkat implements Figura{
+    {
+        int bok;
+        int bokdwa;
+        double wysokosc;
+
+    public trojkat(int bok, int bokdwa, int boktrzy, double wysokosc)
+        {
+            this.bok = bok;
+            this.bokdwa = bokdwa;
+            this.boktrzy =boktrzy
+            this.wysokosc = wysokosc;
+        }
+        @Override
+        public void obliczObwod()
+        {
+            System.out.println(bokdwa * bokdwa + boktrzy);
+        }
+        @Override
+        public void obliczPole()
+        {
+            System.out.println(bok * wysokosc / 2);
+        }
+
+    }
