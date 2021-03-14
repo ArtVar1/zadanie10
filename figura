@@ -1,0 +1,7 @@
+package com.company;
+
+public interface figura
+{
+    void ObliczPole();
+    void ObliczObwód();
+}
