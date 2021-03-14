@@ -1,0 +1,24 @@
+package com.company;
+
+public class prostokat implements Figura{
+    {
+        int bok;
+        int bokdwa
+
+    public prostokat(int bok, bokdwa)
+        {
+            this.bok = bok;
+            this.bokdwa = bokdwa
+        }
+        @Override
+        public void obliczObwod()
+        {
+            System.out.println(2 * bok + 2 * bokdwa);
+        }
+        @Override
+        public void obliczPole()
+        {
+            System.out.println(bokdwa * bok);
+        }
+
+    }
